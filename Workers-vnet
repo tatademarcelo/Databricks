@@ -1,0 +1,65 @@
+{
+    "name": "workers-vnet",
+    "id": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/Student_Databricks_Manager/providers/Microsoft.Network/virtualNetworks/workers-vnet",
+    "etag": "W/\"72f511ff-cccb-4e51-8038-43084263aad4\"",
+    "type": "Microsoft.Network/virtualNetworks",
+    "location": "australiacentral",
+    "tags": {
+        "application": "databricks",
+        "databricks-environment": "true"
+    },
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "54693f79-1708-4c05-b8f9-8e686bd59833",
+        "addressSpace": {
+            "addressPrefixes": [
+                "10.139.0.0/16"
+            ]
+        },
+        "subnets": [
+            {
+                "name": "public-subnet",
+                "id": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/Student_Databricks_Manager/providers/Microsoft.Network/virtualNetworks/workers-vnet/subnets/public-subnet",
+                "etag": "W/\"72f511ff-cccb-4e51-8038-43084263aad4\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefix": "10.139.0.0/18",
+                    "networkSecurityGroup": {
+                        "id": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/Student_Databricks_Manager/providers/Microsoft.Network/networkSecurityGroups/workers-sg"
+                    },
+                    "natGateway": {
+                        "id": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/Student_Databricks_Manager/providers/Microsoft.Network/natGateways/nat-gateway"
+                    },
+                    "delegations": [],
+                    "privateEndpointNetworkPolicies": "Disabled",
+                    "privateLinkServiceNetworkPolicies": "Enabled",
+                    "defaultOutboundAccess": false
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            },
+            {
+                "name": "private-subnet",
+                "id": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/Student_Databricks_Manager/providers/Microsoft.Network/virtualNetworks/workers-vnet/subnets/private-subnet",
+                "etag": "W/\"72f511ff-cccb-4e51-8038-43084263aad4\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefix": "10.139.64.0/18",
+                    "networkSecurityGroup": {
+                        "id": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/Student_Databricks_Manager/providers/Microsoft.Network/networkSecurityGroups/workers-sg"
+                    },
+                    "natGateway": {
+                        "id": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/Student_Databricks_Manager/providers/Microsoft.Network/natGateways/nat-gateway"
+                    },
+                    "delegations": [],
+                    "privateEndpointNetworkPolicies": "Disabled",
+                    "privateLinkServiceNetworkPolicies": "Enabled",
+                    "defaultOutboundAccess": false
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+        ],
+        "virtualNetworkPeerings": [],
+        "enableDdosProtection": false
+    },
+    "apiVersion": "2024-01-01"
+}
