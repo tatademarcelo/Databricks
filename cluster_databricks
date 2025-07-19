@@ -1,0 +1,76 @@
+{
+    "cluster_id": "0719-142532-hcx7hvjt",
+    "creator_user_name": "a57534421@fgv.edu.br",
+    "spark_context_id": 8744416249810691000,
+    "driver_healthy": true,
+    "cluster_name": "Student_Roberta´s Cluster 2025-07-19 11:18:12",
+    "spark_version": "13.3.x-scala2.12",
+    "spark_conf": {
+        "spark.master": "local[*, 4]",
+        "spark.databricks.cluster.profile": "singleNode"
+    },
+    "azure_attributes": {
+        "first_on_demand": 1,
+        "availability": "ON_DEMAND_AZURE",
+        "spot_bid_max_price": -1
+    },
+    "node_type_id": "Standard_D4s_v3",
+    "driver_node_type_id": "Standard_D4s_v3",
+    "custom_tags": {
+        "ResourceClass": "SingleNode"
+    },
+    "autotermination_minutes": 20,
+    "enable_elastic_disk": true,
+    "disk_spec": {},
+    "cluster_source": "UI",
+    "single_user_name": "a57534421@fgv.edu.br",
+    "enable_local_disk_encryption": false,
+    "instance_source": {
+        "node_type_id": "Standard_D4s_v3"
+    },
+    "driver_instance_source": {
+        "node_type_id": "Standard_D4s_v3"
+    },
+    "data_security_mode": "LEGACY_SINGLE_USER_STANDARD",
+    "runtime_engine": "PHOTON",
+    "effective_spark_version": "13.3.x-photon-scala2.12",
+    "kind": "CLASSIC_PREVIEW",
+    "is_single_node": true,
+    "assigned_principal": "user:a57534421@fgv.edu.br",
+    "release_version": "13.3.41",
+    "state": "TERMINATED",
+    "state_message": "Termination requested by a57534421@fgv.edu.br",
+    "start_time": 1752935132521,
+    "terminated_time": 1752938177326,
+    "last_state_loss_time": 0,
+    "last_activity_time": 1752936085303,
+    "last_restarted_time": 1752936147668,
+    "num_workers": 0,
+    "default_tags": {
+        "Vendor": "Databricks",
+        "Creator": "a57534421@fgv.edu.br",
+        "ClusterName": "Student_Roberta´s Cluster 2025-07-19 11:18:12",
+        "ClusterId": "0719-142532-hcx7hvjt"
+    },
+    "termination_reason": {
+        "code": "USER_REQUEST",
+        "type": "SUCCESS",
+        "parameters": {
+            "username": "a57534421@fgv.edu.br"
+        }
+    },
+    "init_scripts_safe_mode": false,
+    "spec": {
+        "cluster_name": "Student_Roberta´s Cluster 2025-07-19 11:18:12",
+        "spark_version": "13.3.x-scala2.12",
+        "node_type_id": "Standard_D4s_v3",
+        "autotermination_minutes": 20,
+        "single_user_name": "a57534421@fgv.edu.br",
+        "data_security_mode": "LEGACY_SINGLE_USER_STANDARD",
+        "runtime_engine": "PHOTON",
+        "kind": "CLASSIC_PREVIEW",
+        "is_single_node": true,
+        "num_workers": 0,
+        "apply_policy_default_values": false
+    }
+}
