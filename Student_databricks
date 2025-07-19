@@ -1,0 +1,69 @@
+{
+    "properties": {
+        "publicNetworkAccess": "Enabled",
+        "requiredNsgRules": "AllRules",
+        "managedResourceGroupId": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/Student_Databricks_Manager",
+        "parameters": {
+            "enableFedRampCertification": {
+                "type": "Bool",
+                "value": false
+            },
+            "enableNoPublicIp": {
+                "type": "Bool",
+                "value": true
+            },
+            "prepareEncryption": {
+                "type": "Bool",
+                "value": false
+            },
+            "requireInfrastructureEncryption": {
+                "type": "Bool",
+                "value": false
+            },
+            "resourceTags": {
+                "type": "Object",
+                "value": {
+                    "application": "databricks",
+                    "databricks-environment": "true"
+                }
+            },
+            "storageAccountName": {
+                "type": "String",
+                "value": "dbstoragej7y5sjpmtdogo"
+            },
+            "storageAccountSkuName": {
+                "type": "String",
+                "value": "Standard_GRS"
+            }
+        },
+        "provisioningState": "Succeeded",
+        "authorizations": [
+            {
+                "principalId": "9a74af6f-d153-4348-988a-e2672920bee9",
+                "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+            }
+        ],
+        "createdBy": {
+            "oid": "cfddc191-9f4a-4b49-a219-aecb861ddfd1",
+            "puid": "10032004453AB115",
+            "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+        },
+        "updatedBy": {
+            "oid": "cfddc191-9f4a-4b49-a219-aecb861ddfd1",
+            "puid": "10032004453AB115",
+            "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+        },
+        "workspaceId": "1683510576932613",
+        "workspaceUrl": "adb-1683510576932613.13.azuredatabricks.net",
+        "createdDateTime": "2025-07-18T23:34:13.2298962Z"
+    },
+    "id": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/rg-dio-roberta/providers/Microsoft.Databricks/workspaces/student_Databricks",
+    "name": "student_Databricks",
+    "type": "Microsoft.Databricks/workspaces",
+    "sku": {
+        "name": "standard"
+    },
+    "location": "australiacentral",
+    "tags": {},
+    "apiVersion": "2018-04-01"
+}
