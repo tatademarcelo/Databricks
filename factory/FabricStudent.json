@@ -1,0 +1,9 @@
+{
+	"name": "FabricStudent",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "28468204-16eb-417e-9c7d-5805ddb8f99c",
+		"tenantId": "001142fd-c2ac-4dd3-888c-2ec5dc269041"
+	}
+}
